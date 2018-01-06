@@ -24,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Montserrat' , 'Lato', sans-serif !important;    
+    font-family: 'Lato', sans-serif !important;    
 }
 
 p {
@@ -38,19 +38,39 @@ a {
 a:hover {
     color: #FF5252 !important;
 }
-/* Navbar */
+
+button:hover {
+    background: #FF5252;
+}
+
+.hr-wide{
+    width: 50%;
+}
+
+.hr-narrow {
+    width: 25%;
+}
+
+.section-height {
+    height: 100vh;
+}
+
 
 
 
 
 /* Footer  */
 footer {
-    position: absolute;
+    
     bottom: 0;
     left: 0;
     width: 100%;
     
 }
+
+
+
+
 
 
 /* MEDIA QUERIES */
@@ -60,13 +80,17 @@ No media query since this is the default in Bootstrap
 */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) {  }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) { }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) { 
+    #portfolio {
+        height: 100Vh;
+    }
+ }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {  }

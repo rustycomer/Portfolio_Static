@@ -11,10 +11,11 @@
     <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon"/>
     <title>Russell Comer | Developer</title>
   </head>
-  <body class="container-fluid">    
-    <header class="">
+  <body class="">    
+    <header class="container-fluid">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark dark-primary-color text-primary-color">
             <div class="container">
                 <a class="navbar-brand lead" href="index.html"><h2>Russell Comer</h2></a>
@@ -40,23 +41,145 @@
             </div>
         </nav>
     </header>
-    <section class="m-auto text-center" id="introduction">
-        <img src="" alt="Russell Comer">
-        <h1>Russell Comer</h1>
-        <hr>
-        <h2>Front End Developer</h2>
+    <!-- Intro Section -->
+    <section class="pt-5 mt-5 text-center default-primary-color text-primary-color section-height" id="introduction">
+        <div class="container">
+            <img src="assets/img/russellcomer.jpg" alt="Russell Comer" class="img-fluid rounded-circle img-thumbnail my-5 divider-color w-25" id="mainimage">
+            <h1 class="mt-2">Russell Comer</h1>
+            <hr class="divider-color hr-wide">
+            <h2>Front End Developer</h2>
+            <a href="#portfolio"> <button class="btn mt-5">Learn More</button></a>
+        </div>
+    </section>  
+     <!--End Intro Section  -->
 
+     <!-- Portfolio Section -->
+    <section class="container text-center mt-5 pt-5" id="portfolio">
+        <h1 class="mt-5">Portfolio</h1>
+        <hr class="divider-color hr-narrow">
+        <div class="card-deck mb-5">
+                <div class="card">
+                  <img class="card-img-top" src="assets/img/Stock_Profit.png" alt="Stock Profit Calculator">
+                  <div class="card-body">                    
+                    <p class="card-text">This project is a small app I built for Trading Tap. It calculates possible profit and loss based on certain margins of risk.</p>
+                    <a href="http://calculator.tradingtap.com" target="_blank"><button type="button" class="btn btn-sm default-primary-color text-primary-color">Go To Project</button></a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="assets/img/portfolio.png" alt="Portfolio Theme Template">
+                  <div class="card-body">                    
+                    <p class="card-text">This project is what you are looking at. It is this sites static html mock up. It was built using bootstrap and jQuery.</p>
+                    <a href="https://github.com/rustycomer/Portfolio_Static" target="_blank"><button type="button" class="btn btn-sm default-primary-color text-primary-color">Go To Project</button></a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="assets/img/LogIn_form.png" alt="LogIn Form">
+                  <div class="card-body">                    
+                    <p class="card-text">This is project was a login form that I made using bootstrap to be used in a web app for Trading Tap .</p>
+                    <a href="http://login.russellcomer.com" target="_blank"><button type="button" class="btn btn-sm default-primary-color text-primary-color">Go To Project</button></a>
+                  </div>
+                </div>
+              </div>
+              <button type="button" class="btn btn-block btn-lg default-primary-color text-primary-color mb-5">More</button>
     </section>
-    <section class="" id="portfolio">
-        
-    </section>
-    <section class="" id="about">
+    <!-- End Portfolio Section -->
 
-    </section>
-    <section class="" id="contact">
+    <!-- Start About Section -->
+    <section class="default-primary-color text-primary-color text-center mt-5 pt-5" id="about">
+        <div class="container">
+            <h1 class="mt-5">About</h1>
+            <hr class="divider-color hr-narrow">
+            <p class="py-5">Hi I'm Russell Comer and I am a front end developer. I really enjoy web development and I'm learning more everyday. <br>
+                Right now I am focused on front end technologies, but I am working with more and more php, especially WordPress and some Laravel. <br>
+                Front end technologies that I know and work with are Bootstrap, jQuery and some React (learning more everyday). <br>
+                I am looking for freelance front end and WordPress work so if you have overflow that you need help with please <a href="#contact"><span class="secondary-text-color">contact me below.</span></a><br>
+            </p>
+            <h3 class="py-5">Things I do</h3>
+            <div class="row pb-5">
+                <div class="col-sm">
+                    <img src="assets/img/Front-End_Development.png" alt="Front End Development" class="img-fluid rounded m-1">
+                </div>
+                <div class="col-sm">
+                    <img src="assets/img/WP_Consulting.png" alt="WordPress Consulting" class="img-fluid rounded m-1">
+                </div>
+                <div class="col-sm">
+                    <img src="assets/img/Web_Development.png" alt="Web App Development" class="img-fluid rounded m-1">
+                </div>
+            </div> <!-- End Things I do -->
+            <h3 class="pt-5">Skills I have</h3>
+            <hr class="divider-color hr-wide">
+            <div class="pb-5 w-50 mx-auto">
+                <h4 class="pt-5">Languages</h4>
+                <hr class="hr-narrow divider-color">
+                <h5 class="p-1">JavaScript</h5>
+                <div class="progress m-1">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h5 class="p-1">php</h5>
+                <div class="progress m-1">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h5 class="p-1">Python</h5>
+                <div class="progress m-1">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h5 class="p-1">LabVIEW</h5>
+                <div class="progress m-1">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>                
+            </div>
+            <div class="pb-5 w-50 mx-auto">
+                    <h4 class="pt-5">Frameworks</h4>
+                    <hr class="hr-narrow divider-color">
+                    <h5 class="p-1">Bootstrap</h5>
+                    <div class="progress m-1">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <h5 class="p-1">jQuery</h5>
+                    <div class="progress m-1">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <h5 class="p-1">WordPress</h5>
+                    <div class="progress m-1">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <h5 class="p-1">Laravel</h5>
+                    <div class="progress m-1">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>                
+                </div>
 
+        </div><!-- End about container div -->
     </section>
-    <footer class="float-left dark-primary-color text-primary-color">
+    <!-- End About Section -->
+
+    <!-- Start Contact Section -->
+    <section class="section-height container text-center my-5 py-5" id="contact">
+        <h1 class="mt-5">Contact</h1>
+        <hr class="divider-color hr-narrow">
+        <h3 class="mt-5">What can I help you with?</h3>
+        <h5 class="mb-5">You can also find me on <a href="https://twitter.com"><span class="secondary-text-color">Twitter</span></a> and <a href="https://linkedin.com"><span class="secondary-text-color">Linkedin</span></a></h5>
+        <form class="w-50 mx-auto">
+            <div class="form-group py-2">                
+                <input type="text" class="form-control form-control-lg" id="name" placeholder="Name">
+            </div>
+            <div class="form-group py-2">                
+                <input type="email" class="form-control form-control-lg" id="email" placeholder="Email">
+            </div>
+            <div class="form-group py-2">                
+                <textarea type="text" class="form-control form-control-lg" id="message" placeholder="Message" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-lg default-primary-color text-primary-color float-left">Send</button>
+        </form>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Start Modals -->
+
+    <!-- End Modals -->
+
+    <!-- Start Footer Section -->
+    <footer class="m-0 p-0 dark-primary-color text-primary-color">
         <div class="container">
             <div class="row text-center  p-5">
                 <div class="col-sm">
@@ -82,6 +205,8 @@
             <p class="text-center">&copy; 2018 Russell Comer</p>
         </div>
     </footer>
+    <!-- End Footer Section -->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
