@@ -8,13 +8,13 @@
 .text-primary-color    { color: #FFFFFF; }
 .accent-color          { background: #FF5252; }
 .accent-text-color     {color: #FF5252;}
-.primary-text-color    { color: #333333; }
+.primary-text-color    { color: #555555; }
 .secondary-text-color  { color: #757575; }
 .divider-color         { border-color: #BDBDBD; } 
 
 
 body {
-    color: #333333;
+    color: #555555;
 }
 
 /* Headings and elements */
@@ -32,7 +32,7 @@ p {
 }
 
 a {
-    color: #FFFFFF !important;
+    color: #757575;
 }
 
 a:hover {
